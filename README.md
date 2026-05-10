@@ -6,9 +6,9 @@ LSPosed/Xposed Module Repository 发布仓库。
 
 ## 功能
 
-- OPPO/realme ColorOS 电源键长按唤起 Google Gemini
+- 电源键长按唤起 Google Gemini
 - 手势条长按和双指识屏触发一圈即搜
-- 仅在 RMX5200 / realme UI (ColorOS) 16 / Android 16 上验证
+- 理论适用于所有 ColorOS 16 设备
 
 ## 下载
 
