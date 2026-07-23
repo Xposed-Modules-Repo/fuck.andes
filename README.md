@@ -1,17 +1,25 @@
-# FuckAndes
+# Eta
 
-LSPosed/Xposed Module Repository 发布仓库。
+Eta 是一个面向 ColorOS 16 的第三方 Android 系统级 AI Agent。App 本体是主要工作台，支持 GUI 操作、终端与文件工具、Skills、网页浏览和自定义模型提供商。
 
-源码、问题反馈和完整说明请看：<https://github.com/wowohut/fuck-andes>
+项目同时保留 Xposed 系统能力：
 
-如果这个模块对你有帮助，欢迎点个 Star ⭐，这是我持续更新的动力。
+- 接管小布的文字和图片请求，转交 Eta Agent Runtime 处理
+- 接管电源键和默认数字助理链路，让 ColorOS 可以直接唤起 Gemini
+- 启用并修正 `contextual_search`，将手势条长按和双指识屏创建为一圈即搜入口
 
-## 功能
+## 运行要求
 
-- 电源键长按唤起 Google Gemini
-- 手势条长按和双指识屏触发一圈即搜
-- 理论适用于所有 ColorOS 16 设备
+- Android 16（API 36）及以上，主要面向 ColorOS 16
+- 支持 libxposed API 102 的 LSPosed 环境
+- Agent 模型采用 BYOK，需要自行配置模型提供商、模型和 API Key
 
-## 下载
+## 源码与反馈
 
-请从本仓库 Releases 下载 APK。
+源码、完整说明和问题反馈请前往：
+
+<https://github.com/Mangi-11/Eta>
+
+APK 请从本仓库 Releases 下载。
+
+> 从 1.5.1 或更早版本升级时请注意：Eta 2.0.0 起更换了签名证书，无法直接覆盖安装旧版，需要先卸载再安装。
