@@ -1,8 +1,8 @@
 # Eta
 
-Eta 是一个第三方 Android 系统级 AI Agent。App 本体是主要工作台，可在小米等 Android 16 设备上独立使用，支持 GUI 操作、终端与文件工具、Skills、网页浏览和自定义模型提供商。
+Eta 是一个主要面向 ColorOS 16 的第三方 Android 系统级 AI Agent。App 本体是主要工作台，支持 GUI 操作、终端与文件工具、Skills、网页浏览和自定义模型提供商。
 
-目前小布助手等系统入口接管主要面向 ColorOS 16；小米设备暂未接入小爱同学入口，但不影响直接使用 Eta App 本体。
+项目重点支持 ColorOS 小布助手入口接管；在符合系统版本要求的其他 Root Android 设备上也可以直接使用 Eta App 本体，例如小米设备，但暂不提供对应厂商助手的入口接管。
 
 项目同时保留 Xposed 系统能力：
 
